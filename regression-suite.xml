@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+      <test name="RestAssured Test">
+       <classes>   
+           <class name="com.twitter.get.statuses.TweetToTwitter">
+           <methods>
+           <include name="retweet" />
+           </methods>
+           </class>   
+       </classes>     
+      </test>
+      
+</suite>
